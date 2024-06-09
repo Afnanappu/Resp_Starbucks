@@ -61,6 +61,13 @@ nav {
 .btn-nav{
     padding: 5px 16px !important;
 }
+.btn-nav:hover{
+    background-color: rgb(225, 225, 225)  !important;
+}
+.btn-hov-nav:hover{
+    background-color: rgb(60, 60, 60)  !important;
+}
+
 .colo-gre-rac {
     color: #1e3932 !important;
 }
@@ -99,6 +106,21 @@ section {
     width: 50%;
 }
 
+.sec-1-box {
+    max-width: 80% !important;
+}
+
 .text-p-width {
-    max-width: calc(1em * (calc(600 / 13))) !important;
+    max-width: 73% !important;
+}
+.text-p-width p{
+    font-size: 19px !important;
+    line-height: 29px !important;
+}
+
+.btn-hov-b {
+    padding: 5px 16px !important;
+}
+.btn-hov-b:hover{
+    background-color: rgba(0, 0, 0, .12)  !important;
 }
