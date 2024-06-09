@@ -2,39 +2,64 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
-    font-family:'SoDoSans-Regular' !important;
+    font-family: 'SoDoSans-Regular' !important;
 }
 
 nav {
     box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
-.navbar-brand{
+
+.navbar-brand {
     padding: 0 !important;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 51px;
+}
+
+.ft-1 {
+    font-size: .875rem !important;
+}
+
+.ft-b {
+    font-family: 'SoDoSans-bold' !important;
+}
+
+.ft-sb {
+    font-family: 'SoDoSans-SemiBold' !important;
 }
 
 .text-black {
     color: black !important;
 }
-.text-black a{
+
+.text-black a {
     color: black !important;
 }
 
+.bg-black {
+    color: white !important;
+    background-color: black;
+}
 
+.fa-location-dot {
+    font-size: 1.28rem !important;
+}
+
+.btn-nav{
+    padding: 5px 16px !important;
+}
 
 .nav-left-font {
-    font-family:'SoDoSans-Bold' !important;
+    font-family: 'SoDoSans-Bold' !important;
     font-size: .9rem !important;
     letter-spacing: 1px !important;
 }
-
-/* @media screen and (max-width:576px) {
-    .navbar-brand svg {
-        width: 35px !important;
-        height: 35px !important;
+/* 
+@media screen and (max-width:576px) {
+    .navbar-brand img {
+        width: 48px !important;
     }
 } */
