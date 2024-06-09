@@ -7,6 +7,8 @@ body {
     font-family: 'SoDoSans-Regular' !important;
 }
 
+/* ------------ Navigation section(Navbar) ------------- */
+
 nav {
     box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
@@ -22,6 +24,10 @@ nav {
 .ft-1 {
     font-size: .875rem !important;
 }
+.ft-3 {
+    font-size: 1.5rem !important;
+}
+
 
 .ft-b {
     font-family: 'SoDoSans-bold' !important;
@@ -29,6 +35,10 @@ nav {
 
 .ft-sb {
     font-family: 'SoDoSans-SemiBold' !important;
+}
+.ft-sb-1 {
+    font-family: 'SoDoSans-SemiBold' !important;
+    font-weight: 600 !important;
 }
 
 .text-black {
@@ -51,7 +61,9 @@ nav {
 .btn-nav{
     padding: 5px 16px !important;
 }
-
+.colo-gre-rac {
+    color: #1e3932 !important;
+}
 .nav-left-font {
     font-family: 'SoDoSans-Bold' !important;
     font-size: .9rem !important;
@@ -62,4 +74,31 @@ nav {
     .navbar-brand img {
         width: 38px !important;
     }
+}
+
+/* ------------ Body sections ------------- */
+
+section {
+    margin-top: 30px;
+}
+
+.sec-1 {
+    padding: 0 !important;
+    width: 100%;
+    background-color: #c0e8a6;
+}
+.sec {
+    width: 100%;
+    padding: 1px;
+}
+
+.box-left {
+    width: 50%;
+}
+.box-right {
+    width: 50%;
+}
+
+.text-p-width {
+    max-width: calc(1em * (calc(600 / 13))) !important;
 }
