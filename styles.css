@@ -9,3 +9,13 @@ body{
 nav {
     box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
+.navbar-brand {
+    padding: 0 !important;
+}
+
+@media screen and (max-width:576px) {
+    .navbar-brand svg {
+        width: 40px !important;
+        height: 40px !important;
+    }
+}
