@@ -1,15 +1,15 @@
 @font-face {
-    font-family:'SoDoSans-Bold, "Helvetica Neue", Helvetica, Arial, sans-serif';
+    font-family:'SoDoSans-Bold';
     font-weight: bold;
     src: url("SoDoSans-Bold.woff") format("opentype");
 }
 @font-face {
-    font-family:'SoDoSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif';
+    font-family:'SoDoSans-Regular';
     font-weight: normal;
     src: url("SoDoSans-Regular.woff") format("opentype");
 }
 @font-face {
-    font-family:'SoDoSans-SemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif';
+    font-family:'SoDoSans-SemiBold';
     font-weight: 700;
     src: url("SoDoSans-SemiBold.woff") format("opentype");
 }
