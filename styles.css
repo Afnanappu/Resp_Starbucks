@@ -28,6 +28,9 @@ nav {
 .ft-3 {
     font-size: 1.5rem !important;
 }
+.ft {
+    font-size: 1rem !important;
+}
 
 
 .ft-b {
@@ -82,8 +85,25 @@ nav {
     .navbar-brand img {
         width: 38px !important;
     }
+    .head-1 {
+        font-size: 19px !important;
+    }
+    .text-p-1 {
+        font-size: 1rem !important;
+        line-height: 28px !important;
+    }
 }
 
+@media screen and (min-width:768px){
+    .head-1 {
+        color: #1e3932 !important;
+        font-size: 24px !important;
+    }
+    .text-p-1 {
+        font-size: 19px !important;
+        line-height: 33px !important;
+    }
+}
 /* ------------ Body sections ------------- */
 
 section {
@@ -102,24 +122,19 @@ section {
 .col-12 {
     padding: 0 !important;
 }
-.head-1 {
-    color: #1e3932 !important;
-    font-size: 24px !important;
-}
+
 /* 
 .text-p-width {
     max-width: 73% !important;
 } */
-.text-p-1 {
-    font-size: 19px !important;
-    line-height: 29px !important;
-}
+
 
 .btn-hov-b {
     padding: 5px 16px !important;
 }
 .btn-hov-b:hover{
-    background-color: rgba(0, 0, 0, .12)  !important;
+    background-color: rgba(0, 0, 0, .1)  !important;
+    color: black !important;
 }
 
 /* .img-pad {
