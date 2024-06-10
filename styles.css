@@ -88,29 +88,33 @@ nav {
 
 /* ---------------------------------------------------------- */
 
-
-.head-1 {
-    font-size: 19px !important;
-    line-height: 29px !important;
-}
-.head-2 {
-    font-size: 24px !important;
-    line-height: 29px !important;
-}
-.text-p-1 {
-    font-size: 1rem !important;
-    line-height: 28px !important;
-}
-
-.text-p-2 {
-        font-size: 19px !important;
-        line-height: 29px !important;
-    }
-
-@media screen and (min-width:375px){
+@media screen and (max-width:375px){
     .navbar-brand img {
         width: 38px !important;
     }
+    
+    .head-1 {
+        font-size: 19px !important;
+        line-height: 29px !important;
+    }
+    .head-2 {
+        font-size: 24px !important;
+        line-height: 29px !important;
+    }
+    .text-p-1 {
+        font-size: 1rem !important;
+        line-height: 28px !important;
+    }
+    
+    .text-p-2 {
+            font-size: 19px !important;
+            line-height: 29px !important;
+        }
+    
+}
+
+@media screen and (min-width:375px){
+    
     .head-1 {
         font-size: 22px !important;
         line-height: 33px !important;
