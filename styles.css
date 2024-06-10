@@ -91,7 +91,6 @@ nav {
     }
     
     .head-2 {
-
         font-size: 24px !important;
     }
     .text-p-1 {
@@ -121,6 +120,7 @@ nav {
     .head-1 {
         color: #1e3932 !important;
         font-size: 24px !important;
+        line-height: 36px !important;
     }
     
     .head-2 {
@@ -135,7 +135,16 @@ nav {
         font-size: 24px !important;
         line-height: 36px !important;
     }
+    
 }
+
+@media screen and (min-width:1072px) {
+        .img-stretch {
+        height: 100% !important;
+    }
+}
+
+
 /* ------------ Body sections ------------- */
 
 section {
@@ -151,17 +160,21 @@ section {
 .sec-3 {
     background-color: #0021db;
 }
+.sec-4 {
+    background-color: #bbf2d1;
+}
+.sec-5 {
+    background-color: #98cee3;
+}
+.sec-6 {
+    background-color: #97d8b1;
+}
 .row {
     margin-right: 0 !important;
 }
 .col-12 {
     padding: 0 !important;
 }
-
-/* 
-.text-p-width {
-    max-width: 73% !important;
-} */
 
 
 .btn-hov-b, .btn-hov-2 {
@@ -176,9 +189,14 @@ section {
     color: white !important;
 }
 
-/* .img-pad {
-    padding: 1px;
-} */
+
+@supports(object-fit: cover){
+    .img-stretch{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
 
 .ltr-space-0 {
     letter-spacing: 0px !important;
