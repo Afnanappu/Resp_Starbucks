@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: 'SoDoSans-Regular' !important;
+    /* overflow: hidden; */
 }
 
 /* ------------ Navigation section(Navbar) ------------- */
@@ -90,30 +91,26 @@ section {
 }
 
 .sec-1 {
-    padding: 0 !important;
-    width: 100%;
     background-color: #c0e8a6;
 }
-.sec {
-    width: 100%;
-    padding: 1px;
+.sec-2 {
+    background-color: #c300bd;
 }
-
-.box-left {
-    width: 50%;
+.row {
+    margin-right: 0 !important;
 }
-.box-right {
-    width: 50%;
+.col-12 {
+    padding: 0 !important;
 }
-
-.sec-1-box {
-    max-width: 80% !important;
+.head-1 {
+    color: #1e3932 !important;
+    font-size: 24px !important;
 }
-
+/* 
 .text-p-width {
     max-width: 73% !important;
-}
-.text-p-width p{
+} */
+.text-p-1 {
     font-size: 19px !important;
     line-height: 29px !important;
 }
@@ -124,3 +121,7 @@ section {
 .btn-hov-b:hover{
     background-color: rgba(0, 0, 0, .12)  !important;
 }
+
+/* .img-pad {
+    padding: 1px;
+} */
