@@ -88,9 +88,17 @@ nav {
     .head-1 {
         font-size: 19px !important;
     }
+    .head-2 {
+        color: white !important;
+        font-size: 24px !important;
+    }
     .text-p-1 {
         font-size: 1rem !important;
         line-height: 28px !important;
+    }
+    .text-p-2 {
+        font-size: 19px !important;
+        line-height: 29px !important;
     }
 }
 
@@ -99,9 +107,19 @@ nav {
         color: #1e3932 !important;
         font-size: 24px !important;
     }
+    
+    .head-2 {
+        color: white !important;
+        font-size: 50px !important;
+    }
+    
     .text-p-1 {
         font-size: 19px !important;
         line-height: 33px !important;
+    }
+    .text-p-2 {
+        font-size: 24px !important;
+        line-height: 36px !important;
     }
 }
 /* ------------ Body sections ------------- */
@@ -129,12 +147,16 @@ section {
 } */
 
 
-.btn-hov-b {
+.btn-hov-b, .btn-hov-2 {
     padding: 5px 16px !important;
 }
 .btn-hov-b:hover{
     background-color: rgba(0, 0, 0, .1)  !important;
     color: black !important;
+}
+.btn-hov-2:hover {
+    background-color: rgba(0, 0, 0, .1)  !important;
+    color: white !important;
 }
 
 /* .img-pad {
