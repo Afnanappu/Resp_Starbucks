@@ -25,12 +25,15 @@ nav {
 .ft-1 {
     font-size: .875rem !important;
 }
+
 .ft-3 {
     font-size: 1.5rem !important;
 }
+
 .ft {
     font-size: 14px !important;
 }
+
 .btn-ft-2 {
     font-size: 14px !important;
 }
@@ -44,6 +47,7 @@ nav {
 .ft-sb {
     font-family: 'SoDoSans-SemiBold' !important;
 }
+
 .ft-sb-1 {
     font-family: 'SoDoSans-SemiBold' !important;
     font-weight: 600 !important;
@@ -66,19 +70,22 @@ nav {
     font-size: 1.28rem !important;
 }
 
-.btn-nav{
+.btn-nav {
     padding: 5px 16px !important;
 }
-.btn-nav:hover{
-    background-color: rgb(225, 225, 225)  !important;
+
+.btn-nav:hover {
+    background-color: rgb(225, 225, 225) !important;
 }
-.btn-hov-nav:hover{
-    background-color: rgb(60, 60, 60)  !important;
+
+.btn-hov-nav:hover {
+    background-color: rgb(60, 60, 60) !important;
 }
 
 .colo-gre-rac {
     color: #1e3932 !important;
 }
+
 .nav-left-font {
     font-family: 'SoDoSans-Bold' !important;
     font-size: .9rem !important;
@@ -88,77 +95,98 @@ nav {
 
 /* ---------------------------------------------------------- */
 
-@media screen and (max-width:375px){
+.text-p-3 {
+    font-size: 13px !important;
+    line-height: 23px !important;
+}
+
+
+@media screen and (max-width:375px) {
     .navbar-brand img {
         width: 38px !important;
     }
-    
+
     .head-1 {
         font-size: 19px !important;
         line-height: 29px !important;
     }
+
     .head-2 {
         font-size: 24px !important;
         line-height: 29px !important;
     }
+
     .text-p-1 {
         font-size: 1rem !important;
         line-height: 28px !important;
     }
-    
+
     .text-p-2 {
-            font-size: 19px !important;
-            line-height: 29px !important;
-        }
-    
+        font-size: 19px !important;
+        line-height: 29px !important;
+    }
+
 }
 
-@media screen and (min-width:375px){
-    
+@media screen and (min-width:375px) {
+
     .head-1 {
         font-size: 22px !important;
         line-height: 33px !important;
     }
+
     .text-p-2 {
         font-size: 22px !important;
         line-height: 33px !important;
     }
+    .text-p-3 {
+        font-size: 13px !important;
+        line-height: 23px !important;
+    }
     
+
 }
 
 @media screen and (min-width:576px) {
     
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
     .ft {
         font-size: 16px !important;
     }
+
     .head-1 {
         font-size: 24px !important;
         line-height: 36px !important;
     }
-    
+
     .head-2 {
         font-size: 50px !important;
     }
-    
+
     .text-p-1 {
         font-size: 19px !important;
         line-height: 33px !important;
     }
+
     .text-p-2 {
         font-size: 24px !important;
         line-height: 36px !important;
     }
+    .text-p-3 {
+        font-size: 14px !important;
+        line-height: 25px !important;
+    }
+
     .btn-ft-2 {
         font-size: 16px !important;
     }
-    
+
 }
 
 @media screen and (min-width:1072px) {
-        .img-stretch {
+    .img-stretch {
         height: 100% !important;
     }
 }
@@ -176,53 +204,59 @@ section {
 .sec-1 {
     background-color: #c0e8a6;
 }
+
 .sec-2 {
-    background-color: #c300bd;
-}
-.sec-3 {
     background-color: #fcdd5c;
 }
-.sec-4 {
-    background-color: #bbf2d1;
+
+.sec-3 {
+    background-color: #c300bd;
 }
-.sec-5 {
+
+.sec-4 {
     background-color: #98cee3;
 }
-.sec-6 {
+
+.sec-5 {
     background-color: #97d8b1;
 }
+/* .sec-6 {
+    background-color: orange;
+} */
+
 .row {
     margin-right: 0 !important;
 }
+
 .col-12 {
     padding: 0 !important;
 }
 
 
-.btn-hov-b, .btn-hov-2 {
+.btn-hov-b,
+.btn-hov-2 {
     padding: 5px 16px !important;
 }
-.btn-hov-b:hover{
-    background-color: rgba(0, 0, 0, .1)  !important;
+
+.btn-hov-b:hover {
+    background-color: rgba(0, 0, 0, .1) !important;
     color: black !important;
 }
+
 .btn-hov-2:hover {
-    background-color: rgba(0, 0, 0, .1)  !important;
+    background-color: rgba(0, 0, 0, .1) !important;
     color: white !important;
 }
 
 
-@supports(object-fit: cover){
-    .img-stretch{
-      height: 100%;
-      object-fit: cover;
-      object-position: center center;
-    }
-}
-
 .ltr-space-0 {
     letter-spacing: 0px !important;
 }
+
 .ltr-space-2 {
     letter-spacing: 2px !important;
+}
+
+.hide-line-on-hov:hover {
+    text-decoration: none !important;
 }
