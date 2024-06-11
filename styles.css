@@ -131,8 +131,10 @@ nav {
 }
 
 @media screen and (min-width:768px){
+    .ft {
+        font-size: 16px !important;
+    }
     .head-1 {
-        color: #1e3932 !important;
         font-size: 24px !important;
         line-height: 36px !important;
     }
@@ -178,7 +180,7 @@ section {
     background-color: #c300bd;
 }
 .sec-3 {
-    background-color: #0021db;
+    background-color: #fcdd5c;
 }
 .sec-4 {
     background-color: #bbf2d1;
