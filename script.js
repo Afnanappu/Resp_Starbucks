@@ -1,4 +1,3 @@
-
 function openNav() {
   document.getElementById("navbarNav").style.width = "80%";
 }
